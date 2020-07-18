@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "./html-version"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/node_modules": true
+		}
+	}
+}
