@@ -1,0 +1,40 @@
+.navigation_container {
+
+  .site_logo {
+
+    float: left;
+    margin: 0;
+    padding: 0;
+
+    a {
+      line-height: 50px;
+    }
+
+    .logo_image {
+      height: 20px;
+      width: auto;
+    }
+  }
+
+  .site_menu {
+
+    float: right;
+  }
+}
+
+.site_menu {
+
+  ul.main_menu {
+    list-style-type: none;
+
+    li {
+      float: left;
+      padding: 8px;
+
+      a {
+        display: block;
+        padding: 5px;
+      }
+    }
+  }
+}

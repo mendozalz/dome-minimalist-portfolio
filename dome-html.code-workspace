@@ -6,6 +6,7 @@
 	],
 	"settings": {
 		"files.exclude": {
+			"**/css/*.scss.css": true,
 			"**/node_modules": true
 		}
 	}
