@@ -1,9 +1,13 @@
-$color--section--about--background: #A4EBF6;
-$color--section--contact--background: #F6C9AA;
-$color--section--experiences--background: #000000;
-$color--section--header--background: #000000;
-$color--section--services--background: #000000;
-$color--theme--primary: #007BFF;
+$color--section--footer--background: #0067B5;
+$color--section--footer--highlight: mix(white, $color--section--footer--background, 20);
+$color--section--footer--text: #FFFFFF;
+$color--section--header--background: #0067B5;
+$color--section--header--highlight: mix(white, $color--section--header--background, 20);
+$color--section--header--text: #FFFFFF;
+
+$color--theme--accent_1: #FF8800; // CTA, clickable component: links, button.
+$color--theme--accent_2: #006837;
+$color--theme--primary: #0067B5; // dominant color: header, section header
 
 $device--super_small--max_width: 479.98px;
 $device--extra_small--min_width: 480px;

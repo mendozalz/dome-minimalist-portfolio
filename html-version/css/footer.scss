@@ -1,0 +1,15 @@
+@import "./variables";
+
+.copyright_section {
+  background-color: $color--section--footer--background;
+  color: $color--section--footer--text;
+  font-size: 10pt;
+
+  a {
+    color: $color--theme--accent_1;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

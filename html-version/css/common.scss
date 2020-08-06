@@ -1,21 +1,41 @@
 @import "./variables";
 
+a {
+  color: $color--theme--accent_1;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
 h2 {
+  color: $color--theme--primary;
   font-family: "Lobster", sans-serif;
   font-weight: bold;
 }
 
 h3 {
+  color: $color--theme--accent_2;
   font-family: "Open Sans", sans-serif;
 }
 
 p {
   margin-bottom: 0;
   margin-top: 0;
+}
+
+.btn-primary {
+  background-color: $color--theme--accent_1;
+  border-color: $color--theme--accent_1;
+
+  &:active, &:focus, &:hover {
+    background-color: $color--theme--accent_1 !important;
+    border-color: $color--theme--accent_1 !important;
+  }
+
+  &:focus, &:active:focus {
+    box-shadow: 0 0 0 .2rem mix(white, $color--theme--accent_1, 50) !important;
+  }
 }
 
 .content_limitter {
@@ -41,7 +61,7 @@ p {
 
 .rating {
 
-  border: 1px solid #777;
+  border: 1px solid #DEDEDE;
   width: 100%;
 
   &.rating-200 {
@@ -93,7 +113,7 @@ p {
   }
 
   div {
-    background-color: #FF7777;
+    background-color: $color--theme--accent_1;
     height: 4px;
   }
 }
@@ -103,6 +123,7 @@ p {
   padding-top: 1rem;
 
   h2 {
+    border-top: 1px solid rgba(191, 191, 191, 0.5);
     padding-bottom: 1rem;
     padding-top: 2.5rem;
     text-align: center;

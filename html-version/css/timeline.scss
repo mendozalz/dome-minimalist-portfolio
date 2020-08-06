@@ -75,7 +75,7 @@ $timeline--heading_column_width--extra_large: 300px;
 
       &:before {
         background-color:#fff;
-        border: $timeline--border_width solid $color--theme--primary;
+        border: $timeline--border_width solid $color--theme--accent_1;
         border-radius:100%;
         content: '';
         height: $timeline--dot_diameter;

@@ -1,7 +1,6 @@
 @import "./variables";
 
 .about_container {
-  background-color: $color--section--about--background;
 
   .content {
     padding-top: 1rem;
@@ -41,7 +40,6 @@
 }
 
 .contact_section {
-  background-color: $color--section--contact--background;
 
   .contact_form {
     background-color: #EFEFEF;
@@ -65,10 +63,6 @@
       display: none;
     }
   }
-}
-
-.copyright_section {
-  font-size: 10pt;
 }
 
 .services_container {
