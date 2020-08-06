@@ -1,0 +1,21 @@
+$color--section--footer--background: #0067B5;
+$color--section--footer--highlight: mix(white, $color--section--footer--background, 20);
+$color--section--footer--text: #FFFFFF;
+$color--section--header--background: #0067B5;
+$color--section--header--highlight: mix(white, $color--section--header--background, 20);
+$color--section--header--text: #FFFFFF;
+
+$color--theme--accent_1: #FF8800; // CTA, clickable component: links, button.
+$color--theme--accent_2: #006837;
+$color--theme--primary: #0067B5; // dominant color: header, section header
+
+$device--super_small--max_width: 479.98px;
+$device--extra_small--min_width: 480px;
+$device--extra_small--max_width: 575.98px;
+$device--small--min_width: 576px;
+$device--small--max_width: 767.98px;
+$device--medium--min_width: 768px;
+$device--medium--max_width: 991.98px;
+$device--large--min_width: 992px;
+$device--large--max_width: 1199.98px;
+$device--extra_large--min_width: 1200px;
