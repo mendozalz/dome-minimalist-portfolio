@@ -34,6 +34,9 @@ class Header extends Component {
                 <li>
                   <HashLink to="/#contacts">Contacts</HashLink>
                 </li>
+                <li>
+                  <HashLink to="/copyright">Copyright</HashLink>
+                </li>
               </ul>
             </nav>
           </div>

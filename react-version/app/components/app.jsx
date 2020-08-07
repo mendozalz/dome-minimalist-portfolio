@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
+import Copyright from './home/copyright';
 import Footer from './footer';
 import Header from './header';
 import Index from './home/index';
@@ -23,6 +24,7 @@ class App extends Component {
         <main>
           <Switch>
             <Route exact path="/" component={Index} />
+            <Route exact path="/copyright" component={Copyright} />
           </Switch>
         </main>
         <Footer></Footer>
