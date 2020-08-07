@@ -1,13 +1,13 @@
 {
-	"folders": [
-		{
-			"path": "./html-version"
-		}
-	],
-	"settings": {
-		"files.exclude": {
-			"**/css/*.scss.css": true,
-			"**/node_modules": true
-		}
-	}
+  "folders": [
+    {
+      "path": "./html-version"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/css/*.scss.css": true,
+      "**/node_modules": true
+    }
+  }
 }
