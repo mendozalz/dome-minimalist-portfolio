@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 import './header.scss';
 
@@ -12,26 +13,26 @@ class Header extends Component {
         <section className="navigation_container">
           <div className="content_limitter">
             <h1 className="site_logo">
-              <a href="/">
+              <HashLink to="/">
                 <img alt="Dome Logo" className="logo_image" src={logo} />
-              </a>
+              </HashLink>
             </h1>
             <nav className="site_menu">
               <ul className="main_menu">
                 <li>
-                  <a href="/">Home</a>
+                  <HashLink to="/#">Home</HashLink>
                 </li>
                 <li>
-                  <a href="#">Services</a>
+                  <HashLink to="/#services">Services</HashLink>
                 </li>
                 <li>
-                  <a href="#">About</a>
+                  <HashLink to="/#about">About</HashLink>
                 </li>
                 <li>
-                  <a href="#">Work</a>
+                  <HashLink to="/#experiences">Experiences</HashLink>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <HashLink to="/#contacts">Contacts</HashLink>
                 </li>
               </ul>
             </nav>

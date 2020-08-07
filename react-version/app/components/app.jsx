@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
 
 import Footer from './footer';
 import Header from './header';
@@ -20,7 +21,9 @@ class App extends Component {
       <div>
         <Header></Header>
         <main>
-          <Index></Index>
+          <Switch>
+            <Route exact path="/" component={Index} />
+          </Switch>
         </main>
         <Footer></Footer>
       </div>

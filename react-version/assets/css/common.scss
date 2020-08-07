@@ -19,6 +19,22 @@ h3 {
   font-family: "Open Sans", sans-serif;
 }
 
+header {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+main {
+  margin-top: 50px;
+
+  .title {
+    padding-top: 2rem;
+  }
+}
+
 p {
   margin-bottom: 0;
   margin-top: 0;

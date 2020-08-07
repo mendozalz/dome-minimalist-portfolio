@@ -15,7 +15,7 @@ class Index extends Component {
             </div>
           </div>
         </section>
-        <section className="services_container section_container">
+        <section className="services_container section_container" id="services">
           <div className="content_limitter container">
             <div className="row">
               <div className="col-xs-12 col-sm-6 col-md-3">
@@ -50,7 +50,7 @@ class Index extends Component {
             </div>
           </div>
         </section>
-        <section className="about_container section_container">
+        <section className="about_container section_container" id="about">
           <div className="content_limitter container">
             <h2 className="heading">About me</h2>
             <div className="row">
@@ -81,7 +81,7 @@ class Index extends Component {
             </div>
           </div>
         </section>
-        <section className="experience_container section_container">
+        <section className="experience_container section_container" id="experiences">
           <div className="content_limitter">
             <h2 className="heading">Experiences</h2>
             <div className="timeline">
@@ -116,9 +116,9 @@ class Index extends Component {
             </div>
           </div>
         </section>
-        <section className="contact_section section_container">
+        <section className="contact_section section_container" id="contacts">
           <div className="content_limitter container">
-            <h2 className="heading">Contact</h2>
+            <h2 className="heading">Contacts</h2>
             <div className="row">
               <div className="col-xs-12 col-sm-4 contact_info">
                 <h3 className="sub_heading">Contact information</h3>
